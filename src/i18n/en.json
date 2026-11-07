@@ -14,7 +14,7 @@
   },
   "hero": {
     "logoAlt": "Push Pull Legs with Mike logo",
-    "tagline": "Structured training, clear plans and measurable progress.<br>And all of it with just Mike."
+    "tagline": "Structured training, clear plans and measurable progress.<br>All powered by Mike."
   },
   "play": {
     "hl": "en",
@@ -43,7 +43,7 @@
     },
     "track": {
       "title": "Track Your Progress",
-      "text": "Record weights, reps and sets and follow your development."
+      "text": "Log weights, reps and sets and visualize your gains."
     }
   },
   "testimonial": {
