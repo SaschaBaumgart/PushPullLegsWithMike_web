@@ -311,19 +311,12 @@ nav a:hover {
   line-height: 1.6;
 }
 
-.testimonial blockquote::before,
-.testimonial blockquote::after {
-  font-size: 1.6em;
-  line-height: 0;
-  color: #b8860b;
+.testimonial blockquote p {
+  margin: 0 0 0.9rem;
 }
 
-.testimonial blockquote::before {
-  content: "\201E";
-}
-
-.testimonial blockquote::after {
-  content: "\201C";
+.testimonial blockquote p:last-child {
+  margin-bottom: 0;
 }
 
 .testimonial cite {
