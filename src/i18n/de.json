@@ -48,9 +48,7 @@
   },
   "testimonial": {
     "intro": "<strong>Push Pull Legs with Mike</strong> hat schon mehrere zufriedene Benutzer.",
-    "quote1": "Mein Bruder Mike hat eine Fitness-App programmiert. Ich wünschte, ich würde scherzen.",
-    "quote2": "Er hat mich monatelang ins Gym geschleppt, mir ein Ohr abgelabert und in absolut jedem Spiegel geflext. Nervig? Absolut.",
-    "quote3": "Aber die App ist eigentlich ganz okay. Man kann seine Workouts ganz einfach erstellen und anpassen. Komplett kostenlos, ohne Werbung und ohne Abonnements.",
+    "quote": "Mein Bruder Mike hat eine Fitness-App programmiert. Er hat mich monatelang ins Gym geschleppt, mir ein Ohr abgelabert und in absolut jedem Spiegel geflext. Nervig? Absolut. Aber die App ist eigentlich ganz okay. Man kann seine Workouts ganz einfach erstellen und anpassen. Komplett kostenlos, ohne Werbung und ohne Abonnements.",
     "cite": "– Kevin, Mikes kleiner Bruder"
   },
   "cta": {
