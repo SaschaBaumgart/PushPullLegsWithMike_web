@@ -135,11 +135,12 @@ nav a:hover {
   background: radial-gradient(ellipse at top, rgba(255, 176, 0, 0.15), transparent 60%);
 }
 
+/* logo.webp hat rundum transparenten Rand (Kreis = ca. 2/3 der Bildbreite).
+   300px Bild => ca. 200px sichtbarer Kreis; negative Margins gleichen den Rand aus. */
 .hero .logo-large {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 0.75rem;
+  width: 300px;
+  height: 300px;
+  margin: -50px auto calc(0.75rem - 50px);
 }
 
 .hero .tagline {
