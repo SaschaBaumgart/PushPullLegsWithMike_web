@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Push Pull Legs with Mike – Fitness App",
+    "description": "Push Pull Legs with Mike – your fitness app for effective push-pull-legs training.",
+    "legalTitle": "Privacy Policy – Push Pull Legs with Mike"
+  },
+  "lang": {
+    "label": "Choose language"
+  },
+  "nav": {
+    "screenshots": "Screenshots",
+    "features": "Features",
+    "back": "Back to home page"
+  },
+  "hero": {
+    "logoAlt": "Push Pull Legs with Mike logo",
+    "tagline": "Structured training, clear plans and measurable progress.<br>And all of it with just Mike."
+  },
+  "play": {
+    "hl": "en",
+    "aria": "Download on Google Play",
+    "small": "Get it on"
+  },
+  "screens": {
+    "title": "Here's what it looks like",
+    "alt1": "Workout history in the app",
+    "alt2": "Exercise details in the app",
+    "alt3": "Progress overview in the app"
+  },
+  "features": {
+    "title": "Features",
+    "plans": {
+      "title": "Push-Pull-Legs Plans",
+      "text": "Create your own training plans, split into push, pull and leg days."
+    },
+    "work": {
+      "title": "Work Through Your Plans",
+      "text": "Work through your training plans and feel deep satisfaction while doing it."
+    },
+    "mike": {
+      "title": "Mike",
+      "text": "For every exercise, Mike shows you how it's done and what the machine looks like in the gym."
+    },
+    "track": {
+      "title": "Track Your Progress",
+      "text": "Record weights, reps and sets and follow your development."
+    }
+  },
+  "testimonial": {
+    "intro": "<strong>Push Pull Legs with Mike</strong> already has several satisfied users.",
+    "quote": "Over the last few months, Mike has constantly talked my ear off about this app and forced me to go train with him. The app is okay. Because Mike spends a lot of time on dating platforms, you can swipe workouts, exercises and sets right and left. All in all, the app is pretty mid, but it doesn't cost anything either.",
+    "cite": "– Kevin, Mike's little brother"
+  },
+  "cta": {
+    "title": "Start your training now"
+  },
+  "footer": {
+    "imprint": "Legal Notice",
+    "privacyApp": "Privacy Policy for the App",
+    "privacyWeb": "Privacy Policy for the Web"
+  },
+  "redirect": {
+    "title": "Push Pull Legs with Mike"
+  }
+}

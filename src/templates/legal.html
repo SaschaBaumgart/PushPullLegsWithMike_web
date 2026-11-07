@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{$lang}}">
+<head>
+{{> head}}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="/{{$lang}}/" class="brand">
+        <img class="logo" src="/images/icon.png" alt="" width="36" height="36">
+        <span>Push Pull Legs with Mike</span>
+      </a>
+      <nav>
+        <a href="/{{$lang}}/">{{nav.back}}</a>
+        {{$switch}}
+      </nav>
+    </div>
+  </header>
+
+  <main class="container legal">
+{{@$page}}  </main>
+
+{{> footer}}
+
+</body>
+</html>

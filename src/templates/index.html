@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="{{$lang}}">
+<head>
+{{> head}}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="#top" class="brand">
+        <img class="logo" src="/images/icon.png" alt="" width="36" height="36">
+        <span>Push Pull Legs with Mike</span>
+      </a>
+      <nav>
+        <a href="#screenshots">{{nav.screenshots}}</a>
+        <a href="#features">{{nav.features}}</a>
+        {{$switch}}
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="container">
+        <img class="logo-large" src="/images/logo.png" alt="{{hero.logoAlt}}" width="160" height="160">
+        <h1>Push Pull Legs <span class="accent">with <span class="mike">Mike<img class="mike-head" src="/images/mike.png" alt="Mike" width="334" height="387"></span></span></h1>
+        <p class="tagline">{{hero.tagline}}</p>
+
+{{> play-button}}
+      </div>
+    </section>
+
+    <section id="screenshots" class="screens">
+      <div class="container">
+        <h2>{{screens.title}}</h2>
+        <div class="screens-grid">
+          <figure class="phone" style="margin:0">
+            <div class="phone-screen"><img src="/images/screenshot-1-de.png" alt="{{screens.alt1}}" width="1080" height="2400" loading="lazy"></div>
+          </figure>
+          <figure class="phone" style="margin:0">
+            <div class="phone-screen"><img src="/images/screenshot-3-de.png" alt="{{screens.alt2}}" width="1080" height="2400" loading="lazy"></div>
+          </figure>
+          <figure class="phone" style="margin:0">
+            <div class="phone-screen"><img src="/images/screenshot-4-de.png" alt="{{screens.alt3}}" width="1080" height="2400" loading="lazy"></div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <h2>{{features.title}}</h2>
+        <div class="features-grid">
+          <article class="card">
+            <h3>{{features.plans.title}}</h3>
+            <p>{{features.plans.text}}</p>
+          </article>
+          <article class="card">
+            <h3>{{features.work.title}}</h3>
+            <p>{{features.work.text}}</p>
+          </article>
+          <article class="card">
+            <h3>{{features.mike.title}}</h3>
+            <p>{{features.mike.text}}</p>
+          </article>
+          <article class="card">
+            <h3>{{features.track.title}}</h3>
+            <p>{{features.track.text}}</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial">
+      <div class="container">
+        <div class="testimonial">
+          <p class="testimonial-intro">{{testimonial.intro}}</p>
+          <blockquote>{{testimonial.quote}}</blockquote>
+          <cite>{{testimonial.cite}}</cite>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>{{cta.title}}</h2>
+{{> play-button}}
+      </div>
+    </section>
+
+  </main>
+
+{{> footer}}
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Push Pull Legs with Mike – Fitness App",
+    "description": "Push Pull Legs with Mike – deine Fitness-App für effektives Push-Pull-Legs-Training.",
+    "legalTitle": "Datenschutzerklärung – Push Pull Legs with Mike"
+  },
+  "lang": {
+    "label": "Sprache wählen"
+  },
+  "nav": {
+    "screenshots": "Screenshots",
+    "features": "Features",
+    "back": "Zurück zur Startseite"
+  },
+  "hero": {
+    "logoAlt": "Logo Push Pull Legs with Mike",
+    "tagline": "Strukturiertes Training, klare Pläne und messbarer Fortschritt.<br>Und das alles nur mit Mike."
+  },
+  "play": {
+    "hl": "de",
+    "aria": "Jetzt bei Google Play herunterladen",
+    "small": "Jetzt bei"
+  },
+  "screens": {
+    "title": "So schaut's aus",
+    "alt1": "Trainingsverlauf der App",
+    "alt2": "Übungsdetails in der App",
+    "alt3": "Fortschrittsanzeige der App"
+  },
+  "features": {
+    "title": "Features",
+    "plans": {
+      "title": "Push-Pull-Legs-Pläne",
+      "text": "Fertige eigene Trainingspläne, aufgeteilt in Push-, Pull- und Beintage."
+    },
+    "work": {
+      "title": "Pläne abarbeiten",
+      "text": "Arbeite deine Trainingspläne ab und empfinde tiefe Befriedigung dabei."
+    },
+    "mike": {
+      "title": "Mike",
+      "text": "Mike zeigt dir zu jeder Übung, wie sie ausgeführt wird und wie das Trainingsgerät im Gym aussieht."
+    },
+    "track": {
+      "title": "Fortschritt tracken",
+      "text": "Gewichte, Wiederholungen und Sätze festhalten und die Entwicklung verfolgen."
+    }
+  },
+  "testimonial": {
+    "intro": "<strong>Push Pull Legs with Mike</strong> hat schon mehrere zufriedene Benutzer.",
+    "quote": "Mike hat mich in den letzten Monaten ständig mit dieser App vollgequatscht und mich gezwungen, mit ihm trainieren zu gehen. Die App ist ganz okay. Weil Mike viel auf Datingplattformen ist, kann man Workouts, Übungen und Sets nach rechts und links swipen. Insgesamt ist die App eher so mid, aber dafür kostet sie auch nichts.",
+    "cite": "– Kevin, Mikes kleiner Bruder"
+  },
+  "cta": {
+    "title": "Starte jetzt dein Training"
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "privacyApp": "Datenschutzerklärung für App",
+    "privacyWeb": "Datenschutzerklärung für Web"
+  },
+  "redirect": {
+    "title": "Push Pull Legs with Mike"
+  }
+}

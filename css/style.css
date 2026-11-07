@@ -367,6 +367,47 @@ nav a:hover {
 .site-footer a:hover {
   text-decoration: underline;
 }
+
+/* Language switch */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 1.25rem;
+  padding-left: 1.25rem;
+  border-left: 1px solid var(--border);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.lang-switch a {
+  margin-left: 0;
+  font-size: inherit;
+}
+
+.lang-switch [aria-current] {
+  color: var(--text);
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .lang-switch {
+    margin-left: 0.9rem;
+    padding-left: 0.9rem;
+  }
+}
+
+/* Language redirect page (/) */
+.redirect {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.redirect a {
+  color: var(--text);
+}
+
 /* Legal pages */
 .legal {
   max-width: 760px;

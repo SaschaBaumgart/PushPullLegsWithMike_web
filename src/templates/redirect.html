@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+{{$robotsTag}}  <title>Push Pull Legs with Mike</title>
+  <link rel="icon" type="image/png" href="/images/icon.png">
+  <link rel="stylesheet" href="/css/style.css">
+{{$hreflang}}
+  <script>
+    // German if the browser's preferred language is German, otherwise English.
+    (function () {
+      var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ""];
+      var lang = /^de(-|$)/i.test(langs[0]) ? "de" : "en";
+      location.replace("/" + lang + "/{{$target}}" + location.search + location.hash);
+    })();
+  </script>
+</head>
+<body>
+  <main class="container redirect">
+    <img class="logo-large" src="/images/logo.png" alt="" width="160" height="160">
+    <h1>Push Pull Legs with Mike</h1>
+    <p>
+      <a href="/de/{{$target}}" hreflang="de" lang="de">Deutsch</a>
+      &nbsp;|&nbsp;
+      <a href="/en/{{$target}}" hreflang="en" lang="en">English</a>
+    </p>
+  </main>
+</body>
+</html>
