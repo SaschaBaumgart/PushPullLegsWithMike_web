@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{$lang}}">
+<head>
+{{> head}}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="/{{$lang}}/" class="brand">
+        <img class="logo" src="/images/website_header_logo_36x36.webp" alt="" width="36" height="36">
+        <span>Push Pull Legs with Mike</span>
+      </a>
+      <nav>
+        <a href="/{{$lang}}/">{{nav.back}}</a>
+        {{$switch}}
+      </nav>
+    </div>
+  </header>
+
+  <main class="container legal beta">
+    <div class="beta-title">
+      <h1>{{beta.title}}</h1>
+      <img src="/images/mike.png" alt="" width="334" height="387">
+    </div>
+    <p>{{beta.p1}}</p>
+    <p>{{beta.p2}}</p>
+    <p>{{beta.p3}}</p>
+
+    <div class="beta-steps">
+      <section class="card beta-step">
+        <h2>{{beta.step1}}</h2>
+        <a class="qr" href="https://groups.google.com/g/push-pull-legs-with-mike?hl={{play.hl}}">
+          <img src="/images/qr/qr_google_group_1024.webp" alt="{{beta.qrGroupAlt}}" width="240" height="240">
+        </a>
+        <a class="btn-group" href="https://groups.google.com/g/push-pull-legs-with-mike?hl={{play.hl}}">{{beta.joinGroup}}</a>
+      </section>
+      <section class="card beta-step">
+        <h2>{{beta.step2}}</h2>
+        <a class="qr" href="https://play.google.com/store/apps/details?id=com.pplappstudio.pushpulllegswithmike&amp;hl={{play.hl}}">
+          <img src="/images/qr/qr_playstore_1024.webp" alt="{{beta.qrPlayAlt}}" width="240" height="240">
+        </a>
+{{> play-button}}
+      </section>
+    </div>
+  </main>
+
+{{> footer}}
+
+</body>
+</html>

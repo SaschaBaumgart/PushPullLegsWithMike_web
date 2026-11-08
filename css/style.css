@@ -456,6 +456,82 @@ nav a:hover {
   color: var(--text);
 }
 
+/* Beta page: white text, Mike's head next to the heading (rotated like on the main page) */
+.beta h1,
+.beta p {
+  color: #fff;
+}
+
+.beta-title {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.beta-title h1 {
+  margin: 0;
+}
+
+.beta-title img {
+  flex-shrink: 0;
+  width: clamp(56px, 10vw, 90px);
+  height: auto;
+  transform: rotate(20deg);
+  transform-origin: 50% 80%;
+}
+
+/* Beta page: two steps, each with QR code and button */
+.beta-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.beta-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.beta-step h2 {
+  font-size: 1.15rem;
+  text-align: center;
+  margin: 0 0 1.25rem;
+}
+
+.beta-step .qr {
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.beta-step .qr img {
+  width: 240px;
+  height: 240px;
+  border-radius: 12px;
+}
+
+.btn-group {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.95rem 1.6rem;
+  background: var(--accent);
+  color: #000;
+  font-weight: 700;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn-group:hover {
+  color: #000;
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .screens-grid {

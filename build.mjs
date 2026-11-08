@@ -89,7 +89,11 @@ function render(template, ctx) {
 
 // ---------- Hilfen ----------
 
-const pageUrl = (lang, page) => (page === "index" ? `/${lang}/` : `/${lang}/${page}.html`);
+// Seiten, die als Verzeichnis ausgeliefert werden (/<lang>/<dir>/), alle anderen als /<lang>/<name>.html
+const PAGE_DIR = { index: "", beta: "beta/" };
+
+const pageUrl = (lang, page) => (page in PAGE_DIR ? `/${lang}/${PAGE_DIR[page]}` : `/${lang}/${page}.html`);
+const pageFile = (lang, page) => (page in PAGE_DIR ? `${lang}/${PAGE_DIR[page]}index.html` : `${lang}/${page}.html`);
 
 const hreflangLinks = (page) =>
   [
@@ -121,6 +125,7 @@ for (const name of ["css", "images", "CNAME"]) {
 // Seiten pro Sprache
 const pages = [
   { name: "index", template: "index", titleKey: "meta.title", describe: true },
+  { name: "beta", template: "beta", titleKey: "beta.metaTitle", noindex: true },
   ...LEGAL_PAGES.map((name) => ({ name, template: "legal", titleKey: "meta.legalTitle", noindex: true })),
 ];
 
@@ -138,13 +143,14 @@ for (const lang of LANGS) {
       robotsTag: page.noindex ? `  <meta name="robots" content="noindex">\n` : "",
     };
     const html = render(read(SRC, "templates", `${page.template}.html`), { lang, texts, vars });
-    write(page.name === "index" ? `${lang}/index.html` : `${lang}/${page.name}.html`, html);
+    write(pageFile(lang, page.name), html);
   }
 }
 
-// Weiterleitungen: / (Spracherkennung) und die alten Datenschutz-URLs
+// Weiterleitungen: / und /beta/ (Spracherkennung) und die alten Datenschutz-URLs
 const redirects = [
   { file: "index.html", target: "", page: "index", noindex: false },
+  { file: "beta/index.html", target: "beta/", page: "beta", noindex: true },
   ...LEGAL_PAGES.map((n) => ({ file: `${n}.html`, target: `${n}.html`, page: n, noindex: true })),
 ];
 for (const r of redirects) {

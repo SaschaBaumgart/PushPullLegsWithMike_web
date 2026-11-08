@@ -55,6 +55,18 @@
   "cta": {
     "title": "Starte jetzt dein Training"
   },
+  "beta": {
+    "metaTitle": "Mike braucht deine Hilfe – Push Pull Legs with Mike",
+    "title": "<span class=\"accent\">Mike</span> braucht deine Hilfe",
+    "p1": "Bevor die App veröffentlicht werden kann, muss eine Gruppe von Testern die App über einen Zeitraum von zwei Wochen auf ihrem Handy testen. Google verrät nicht so gern, wie oft man die App tatsächlich benutzen muss. Viermal sollte wohl ausreichen.",
+    "p2": "Da Mike keine Freunde hat, wäre es echt nett von dir, wenn du mithelfen könntest. Mike wird dir auf ewig dankbar sein!",
+    "p3": "Zuerst musst du der Google Group beitreten. Dann kannst du die App aus dem Store herunterladen. Sorry, dass es so kompliziert ist, aber das ist die Vorgabe von Google.",
+    "step1": "1. Gruppe beitreten",
+    "step2": "2. App herunterladen",
+    "joinGroup": "Google Group beitreten",
+    "qrGroupAlt": "QR-Code zum Beitritt der Google Group",
+    "qrPlayAlt": "QR-Code zur App bei Google Play"
+  },
   "footer": {
     "imprint": "Impressum",
     "privacyApp": "Datenschutzerklärung für App",
