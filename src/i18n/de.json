@@ -24,8 +24,9 @@
   "screens": {
     "title": "So schaut's aus",
     "alt1": "Trainingsverlauf der App",
-    "alt2": "Übungsdetails in der App",
-    "alt3": "Fortschrittsanzeige der App"
+    "alt2": "Workout mit seinen Übungen in der App",
+    "alt3": "Übungsdetails in der App",
+    "alt4": "Fortschrittsanzeige der App"
   },
   "features": {
     "title": "Features",

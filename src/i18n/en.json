@@ -24,8 +24,9 @@
   "screens": {
     "title": "Here's what it looks like",
     "alt1": "Workout history in the app",
-    "alt2": "Exercise details in the app",
-    "alt3": "Progress overview in the app"
+    "alt2": "Workout with its exercises in the app",
+    "alt3": "Exercise details in the app",
+    "alt4": "Progress overview in the app"
   },
   "features": {
     "title": "Features",
